@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="SegHig"></unicode>
+  <unicode value="Seguridad e Higiene en el Trabajo"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addAccessibilityToolbar"></string>
@@ -244,1717 +244,10 @@
       <instance class="exe.engine.node.Node" reference="7">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Opción múltiple"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="5">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="ATENCIÓN!"></unicode>
-           <string role="key" value="_attributes"></string>
-           <list>
-            <tuple>
-             <string value="title"></string>
-             <list>
-              <string value="Title"></string>
-              <int value="0"></int>
-              <int value="0"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="category"></string>
-             <list>
-              <string value="Category"></string>
-              <int value="0"></int>
-              <int value="1"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="css-class"></string>
-             <list>
-              <string value="CSS class"></string>
-              <int value="0"></int>
-              <int value="2"></int>
-             </list>
-            </tuple>
-            <tuple>
-             <string value="icon"></string>
-             <list>
-              <string value="Icon"></string>
-              <int value="0"></int>
-              <int value="3"></int>
-             </list>
-            </tuple>
-           </list>
-           <string role="key" value="_author"></string>
-           <string value=""></string>
-           <string role="key" value="_iDeviceDir"></string>
-           <string value="text"></string>
-           <string role="key" value="_purpose"></string>
-           <string value=""></string>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="_typeName"></string>
-           <unicode value="Text"></unicode>
-           <string role="key" value="_valid"></string>
-           <bool value="1"></bool>
-           <string role="key" value="class_"></string>
-           <unicode value="text"></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="1"></int>
-           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-           <int value="1"></int>
-           <string role="key" value="fields"></string>
-           <list>
-            <instance class="exe.engine.field.TextAreaField" reference="6">
-             <dictionary>
-              <string role="key" value="_id"></string>
-              <unicode value="146_2"></unicode>
-              <string role="key" value="_idevice"></string>
-              <reference key="5"></reference>
-              <string role="key" value="_instruc"></string>
-              <string value=""></string>
-              <string role="key" value="_name"></string>
-              <string value=""></string>
-              <string role="key" value="anchor_names"></string>
-              <list></list>
-              <string role="key" value="anchors_linked_from_fields"></string>
-              <dictionary></dictionary>
-              <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Las preguntas de esta actividad no puntúan en el informe de progreso&lt;/p&gt;&lt;/div&gt;"></unicode>
-              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-              <int value="4"></int>
-              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-              <int value="3"></int>
-              <string role="key" value="htmlTag"></string>
-              <string value="div"></string>
-              <string role="key" value="images"></string>
-              <instance class="exe.engine.galleryidevice.GalleryImages">
-               <dictionary>
-                <string role="key" value=".listitems"></string>
-                <list></list>
-                <string role="key" value="idevice"></string>
-                <reference key="6"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="intlinks_to_anchors"></string>
-              <dictionary></dictionary>
-              <string role="key" value="nextImageId"></string>
-              <int value="0"></int>
-              <string role="key" value="parentNode"></string>
-              <reference key="7"></reference>
-             </dictionary>
-            </instance>
-           </list>
-           <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="id"></string>
-           <unicode value="19"></unicode>
-           <string role="key" value="ideviceCategory"></string>
-           <unicode value="Text and Tasks"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="nextFieldId"></string>
-           <int value="3"></int>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parentNode"></string>
-           <reference key="7"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.multichoiceidevice.MultichoiceIdevice" reference="8">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Preguntas de Elección Múltiple"></unicode>
-           <string role="key" value="_answerInstruc"></string>
-           <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_feedbackInstruc"></string>
-           <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-           <string role="key" value="_hintInstruc"></string>
-           <unicode value="Enter a hint here. If you
-do not want to provide a hint, leave this field blank."></unicode>
-           <string role="key" value="_keyInstruc"></string>
-           <unicode value="Select the correct option by clicking 
-on the radio button."></unicode>
-           <string role="key" value="_purpose"></string>
-           <unicode value="Although more often used in formal testing 
-situations MCQs can be used as a testing tool to stimulate thought and  
-discussion on topics students may feel a little reticent in responding to. 
-
-When designing a MCQ test consider the following:
-&lt;ul&gt;
-&lt;li&gt; What learning outcomes are the questions testing&lt;/li&gt;
-&lt;li&gt;    What intellectual skills are being tested&lt;/li&gt;
-&lt;li&gt; What are the language skills of the audience&lt;/li&gt;
-&lt;li&gt; Gender and cultural issues&lt;/li&gt;
-&lt;li&gt; Avoid grammar language and question structures that might provide 
-     clues&lt;/li&gt;
-&lt;/ul&gt;
- "></unicode>
-           <string role="key" value="_questionInstruc"></string>
-           <unicode value="Enter the question stem. 
-The quest should be clear and unambiguous. Avoid negative premises 
-as these can tend to be ambiguous."></unicode>
-           <string role="key" value="_tip"></string>
-           <unicode value="When building an MCQ consider the following: &lt;ul&gt;
-&lt;li&gt; Use phrases that learners are familiar with and have 
-encountered in their study &lt;/li&gt;
-&lt;li&gt; Keep responses concise &lt;/li&gt;
-&lt;li&gt; There should be some consistency between the stem and the responses &lt;/li&gt;
-&lt;li&gt; Provide enough options to challenge learners to think about their response
-&lt;/li&gt;
-&lt;li&gt; Try to make sure that correct responses are not more detailed than the 
-distractors &lt;/li&gt;
-&lt;li&gt; Distractors should be incorrect but plausible &lt;/li&gt;
-&lt;/ul&gt;
-"></unicode>
-           <string role="key" value="_typeName"></string>
-           <unicode value="Multi-choice"></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="1"></int>
-           <string role="key" value="exe.engine.multichoiceidevice.MultichoiceIdevice.persistenceVersion"></string>
-           <int value="9"></int>
-           <string role="key" value="hint"></string>
-           <string value=""></string>
-           <string role="key" value="icon"></string>
-           <unicode value="question"></unicode>
-           <string role="key" value="id"></string>
-           <unicode value="1"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="message"></string>
-           <string value=""></string>
-           <string role="key" value="options"></string>
-           <list></list>
-           <string role="key" value="originalicon"></string>
-           <unicode value="question"></unicode>
-           <string role="key" value="parentNode"></string>
-           <reference key="7"></reference>
-           <string role="key" value="question"></string>
-           <string value=""></string>
-           <string role="key" value="questions"></string>
-           <list>
-            <instance class="exe.engine.field.QuizQuestionField" reference="13">
-             <dictionary>
-              <string role="key" value="questionTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="9">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="87"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="8"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Enter the question stem. 
-The quest should be clear and unambiguous. Avoid negative premises 
-as these can tend to be ambiguous."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Question"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="class_"></string>
-                <string value="block question"></string>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;¿Cuál es la definición de salud según la OMS?&lt;/p&gt;"></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="htmlTag"></string>
-                <string value="div"></string>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="9"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="_id"></string>
-              <int value="86"></int>
-              <string role="key" value="_idevice"></string>
-              <reference key="8"></reference>
-              <string role="key" value="_instruc"></string>
-              <string value=""></string>
-              <string role="key" value="_name"></string>
-              <unicode value="Question"></unicode>
-              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-              <int value="4"></int>
-              <string role="key" value="exe.engine.field.QuizQuestionField.persistenceVersion"></string>
-              <int value="1"></int>
-              <string role="key" value="hintTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="10">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="88"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="8"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Enter a hint here. If you
-do not want to provide a hint, leave this field blank."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Hint"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value=""></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="10"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="options"></string>
-              <list>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="89"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="11">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="90"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;La ausencia de enfermedad y dolor&lt;/p&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="11"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="12">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="91"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="12"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="0"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="13"></reference>
-                </dictionary>
-               </instance>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="92"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="14">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="93"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;Un estado de completo bienestar físico, mental y social.&lt;/p&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="14"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="15">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="94"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="15"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="1"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="13"></reference>
-                </dictionary>
-               </instance>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="238"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="16">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="239"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;La capacidad de trabajar sin riesgos laborales&lt;/p&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="16"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="17">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="240"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="17"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="0"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="13"></reference>
-                </dictionary>
-               </instance>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="241"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="18">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="242"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;La ausencia de fatiga y ansiedad en el trabajo.&lt;/p&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="18"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="19">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="243"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="19"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="0"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="13"></reference>
-                </dictionary>
-               </instance>
-              </list>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.field.QuizQuestionField" reference="24">
-             <dictionary>
-              <string role="key" value="questionTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="20">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="96"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="8"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Enter the question stem. 
-The quest should be clear and unambiguous. Avoid negative premises 
-as these can tend to be ambiguous."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Question"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="class_"></string>
-                <string value="block question"></string>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;Según la Ley de Prevención de Riesgos Laborales, ¿qué elemento NO se considera una condición de trabajo?&lt;/p&gt;
-&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 24px; top: 61.8px;&quot;&gt;
-&lt;div class=&quot;gtx-trans-icon&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;"></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="htmlTag"></string>
-                <string value="div"></string>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="20"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="_id"></string>
-              <int value="95"></int>
-              <string role="key" value="_idevice"></string>
-              <reference key="8"></reference>
-              <string role="key" value="_instruc"></string>
-              <string value=""></string>
-              <string role="key" value="_name"></string>
-              <unicode value="Question"></unicode>
-              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-              <int value="4"></int>
-              <string role="key" value="exe.engine.field.QuizQuestionField.persistenceVersion"></string>
-              <int value="1"></int>
-              <string role="key" value="hintTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="21">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="97"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="8"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Enter a hint here. If you
-do not want to provide a hint, leave this field blank."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Hint"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value=""></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="21"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="options"></string>
-              <list>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="101"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="22">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="102"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;Los agentes físicos presentes en el ambiente&lt;/p&gt;
-&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 14px; top: 11.2px;&quot;&gt;
-&lt;div class=&quot;gtx-trans-icon&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="22"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="23">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="103"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="23"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="0"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="24"></reference>
-                </dictionary>
-               </instance>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="244"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="25">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="245"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;El salario del trabajador&lt;/p&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="25"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="26">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="246"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="26"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="1"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="24"></reference>
-                </dictionary>
-               </instance>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="247"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="27">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="248"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;Las instalaciones y equipos del centro de trabajo&lt;/p&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="27"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="28">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="249"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="28"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="0"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="24"></reference>
-                </dictionary>
-               </instance>
-               <instance class="exe.engine.field.QuizOptionField">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <int value="250"></int>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="8"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="answerTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="29">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="251"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Enter the available choices here. 
-You can add options by clicking the &quot;Add Another Option&quot; button. Delete options 
-by clicking the red &quot;X&quot; next to the Option."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Option"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value="&lt;p&gt;La organización del trabajo&lt;/p&gt;"></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="htmlTag"></string>
-                   <string value="div"></string>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="29"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.QuizOptionField.persistenceVersion"></string>
-                 <int value="1"></int>
-                 <string role="key" value="feedbackTextArea"></string>
-                 <instance class="exe.engine.field.TextAreaField" reference="30">
-                  <dictionary>
-                   <string role="key" value="_id"></string>
-                   <int value="252"></int>
-                   <string role="key" value="_idevice"></string>
-                   <reference key="8"></reference>
-                   <string role="key" value="_instruc"></string>
-                   <unicode value="Type in the feedback that you want the 
-student to see when selecting the particular option. If you don't complete this 
-box, eXe will automatically provide default feedback as follows: &quot;Correct 
-answer&quot; as indicated by the selection for the correct answer; or &quot;Wrong answer&quot;
-for the other options."></unicode>
-                   <string role="key" value="_name"></string>
-                   <unicode value="Feedback"></unicode>
-                   <string role="key" value="anchor_names"></string>
-                   <list></list>
-                   <string role="key" value="anchors_linked_from_fields"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="content_w_resourcePaths"></string>
-                   <unicode content="true" value=""></unicode>
-                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                   <int value="4"></int>
-                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                   <int value="2"></int>
-                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                   <int value="3"></int>
-                   <string role="key" value="images"></string>
-                   <instance class="exe.engine.galleryidevice.GalleryImages">
-                    <dictionary>
-                     <string role="key" value=".listitems"></string>
-                     <list></list>
-                     <string role="key" value="idevice"></string>
-                     <reference key="30"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="intlinks_to_anchors"></string>
-                   <dictionary></dictionary>
-                   <string role="key" value="nextImageId"></string>
-                   <int value="0"></int>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="7"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="isCorrect"></string>
-                 <bool value="0"></bool>
-                 <string role="key" value="question"></string>
-                 <reference key="24"></reference>
-                </dictionary>
-               </instance>
-              </list>
-             </dictionary>
-            </instance>
-           </list>
-           <string role="key" value="systemResources"></string>
-           <list>
-            <string value="common.js"></string>
-            <string value="panel-amusements.png"></string>
-            <string value="stock-stop.png"></string>
-           </list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.truefalseidevice.TrueFalseIdevice" reference="31">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Preguntas Verdadero-Falso"></unicode>
-           <string role="key" value="instructionsForLearners"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="32">
-            <dictionary>
-             <string role="key" value="_id"></string>
-             <int value="112"></int>
-             <string role="key" value="_idevice"></string>
-             <reference key="31"></reference>
-             <string role="key" value="_instruc"></string>
-             <unicode value="Provide instruction on how the True/False Question should be 
-completed."></unicode>
-             <string role="key" value="_name"></string>
-             <unicode value="Instructions"></unicode>
-             <string role="key" value="anchor_names"></string>
-             <list></list>
-             <string role="key" value="anchors_linked_from_fields"></string>
-             <dictionary></dictionary>
-             <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value=""></unicode>
-             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-             <int value="4"></int>
-             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-             <int value="2"></int>
-             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-             <int value="3"></int>
-             <string role="key" value="htmlTag"></string>
-             <string value="div"></string>
-             <string role="key" value="images"></string>
-             <instance class="exe.engine.galleryidevice.GalleryImages">
-              <dictionary>
-               <string role="key" value=".listitems"></string>
-               <list></list>
-               <string role="key" value="idevice"></string>
-               <reference key="32"></reference>
-              </dictionary>
-             </instance>
-             <string role="key" value="intlinks_to_anchors"></string>
-             <dictionary></dictionary>
-             <string role="key" value="nextImageId"></string>
-             <int value="0"></int>
-             <string role="key" value="parentNode"></string>
-             <reference key="7"></reference>
-            </dictionary>
-           </instance>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_feedbackInstruc"></string>
-           <unicode value="Enter any feedback you wish to provide 
-to the learner. This field may be left blank. if this field is left blank 
-default feedback will be provided."></unicode>
-           <string role="key" value="_hintInstruc"></string>
-           <unicode value="A hint may be provided to assist the 
-learner in answering the question."></unicode>
-           <string role="key" value="_keyInstruc"></string>
-           <string value=""></string>
-           <string role="key" value="_purpose"></string>
-           <unicode value="True/false questions present a statement where 
-the learner must decide if the statement is true. This type of question works 
-well for factual information and information that lends itself to either/or 
-responses."></unicode>
-           <string role="key" value="_questionInstruc"></string>
-           <unicode value="Type the question stem. The question 
-should be clear and unambiguous. Avoid negative premises as these can tend to 
-be ambiguous."></unicode>
-           <string role="key" value="_tip"></string>
-           <unicode value=""></unicode>
-           <string role="key" value="_typeName"></string>
-           <unicode value="True-False Question"></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="1"></int>
-           <string role="key" value="exe.engine.truefalseidevice.TrueFalseIdevice.persistenceVersion"></string>
-           <int value="11"></int>
-           <string role="key" value="icon"></string>
-           <unicode value="question"></unicode>
-           <string role="key" value="id"></string>
-           <unicode value="2"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="originalicon"></string>
-           <unicode value="question"></unicode>
-           <string role="key" value="parentNode"></string>
-           <reference key="7"></reference>
-           <string role="key" value="questions"></string>
-           <list>
-            <instance class="exe.engine.truefalseidevice.TrueFalseQuestion">
-             <dictionary>
-              <string role="key" value="questionTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="33">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="109"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="31"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Escriba la pregunta. La pregunta 
-debe ser clara y no ambigua. Evite las premisas negativas ya que esta tienden a 
-ser ambiguas."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Question:"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;La PRL busca reducir los riesgos laborales, pero no puede eliminarlos completamente. (V/F)&lt;/p&gt;"></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="htmlTag"></string>
-                <string value="div"></string>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="33"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="feedbackTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="34">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="110"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="31"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Introduzca la retroalimentación que quiere 
-que vean los estudiantes después de haber intentado completar la actividad. 
-Este campo se puede dejar vacío. Si este campo está vacío se ofrecerá la retroalimentación por defecto."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Feedback"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value=""></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="34"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="hintTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="35">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="111"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="31"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Se puede proporcionar una pista para ayudar al 
-estudiante a responder la pregunta."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Hint"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value=""></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="35"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="idevice"></string>
-              <reference key="31"></reference>
-              <string role="key" value="isCorrect"></string>
-              <bool value="1"></bool>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.truefalseidevice.TrueFalseQuestion">
-             <dictionary>
-              <string role="key" value="questionTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="36">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="253"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="31"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Escriba la pregunta. La pregunta 
-debe ser clara y no ambigua. Evite las premisas negativas ya que esta tienden a 
-ser ambiguas."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Question:"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;Los Equipos de Protección Individual (EPIs) deben ser costeados por los trabajadores. (V/F)&lt;/p&gt;"></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="htmlTag"></string>
-                <string value="div"></string>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="36"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="feedbackTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="37">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="254"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="31"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Introduzca la retroalimentación que quiere 
-que vean los estudiantes después de haber intentado completar la actividad. 
-Este campo se puede dejar vacío. Si este campo está vacío se ofrecerá la retroalimentación por defecto."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Feedback"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value=""></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="37"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="hintTextArea"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="38">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="255"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="31"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Se puede proporcionar una pista para ayudar al 
-estudiante a responder la pregunta."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Hint"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value=""></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="38"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <reference key="7"></reference>
-               </dictionary>
-              </instance>
-              <string role="key" value="idevice"></string>
-              <reference key="31"></reference>
-              <string role="key" value="isCorrect"></string>
-              <bool value="0"></bool>
-             </dictionary>
-            </instance>
-           </list>
-           <string role="key" value="systemResources"></string>
-           <list>
-            <string value="common.js"></string>
-            <string value="panel-amusements.png"></string>
-            <string value="stock-stop.png"></string>
-           </list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="1"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="4"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Inicio:Opci%C3%B3n%20m%C3%BAltiple"></string>
-        <string role="key" value="parent"></string>
-        <reference key="3"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="41">
-       <dictionary>
-        <string role="key" value="_title"></string>
         <unicode value="Relacionar conceptos"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="39">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="5">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Classify"></unicode>
@@ -2015,12 +308,12 @@ estudiante a responder la pregunta."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="40">
+            <instance class="exe.engine.field.TextAreaField" reference="6">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="131_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="39"></reference>
+              <reference key="5"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2045,7 +338,7 @@ estudiante a responder la pregunta."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="40"></reference>
+                <reference key="6"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -2053,7 +346,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="41"></reference>
+              <reference key="7"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2070,7 +363,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="41"></reference>
+           <reference key="7"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -2102,13 +395,13 @@ estudiante a responder la pregunta."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="44">
+      <instance class="exe.engine.node.Node" reference="10">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Rellenar huecos"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="42">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Complete"></unicode>
@@ -2169,12 +462,12 @@ estudiante a responder la pregunta."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="43">
+            <instance class="exe.engine.field.TextAreaField" reference="9">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="132_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="42"></reference>
+              <reference key="8"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2201,7 +494,7 @@ estudiante a responder la pregunta."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="43"></reference>
+                <reference key="9"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -2209,7 +502,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="44"></reference>
+              <reference key="10"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2226,7 +519,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="44"></reference>
+           <reference key="10"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -2258,13 +551,13 @@ estudiante a responder la pregunta."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="47">
+      <instance class="exe.engine.node.Node" reference="13">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Proceso de prevención de riesgos laborales"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="45">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Scrambled List"></unicode>
@@ -2325,12 +618,12 @@ estudiante a responder la pregunta."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="46">
+            <instance class="exe.engine.field.TextAreaField" reference="12">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="140_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="45"></reference>
+              <reference key="11"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2355,7 +648,7 @@ estudiante a responder la pregunta."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="46"></reference>
+                <reference key="12"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -2363,7 +656,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="47"></reference>
+              <reference key="13"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2380,7 +673,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="originalicon"></string>
            <unicode value="activity"></unicode>
            <string role="key" value="parentNode"></string>
-           <reference key="47"></reference>
+           <reference key="13"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -2412,13 +705,13 @@ estudiante a responder la pregunta."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="50">
+      <instance class="exe.engine.node.Node" reference="16">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Técnicas de prevención"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="48">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="14">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Classify"></unicode>
@@ -2479,12 +772,12 @@ estudiante a responder la pregunta."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="49">
+            <instance class="exe.engine.field.TextAreaField" reference="15">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="142_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="48"></reference>
+              <reference key="14"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2510,7 +803,7 @@ estudiante a responder la pregunta."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="49"></reference>
+                <reference key="15"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -2518,7 +811,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="50"></reference>
+              <reference key="16"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2535,7 +828,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="50"></reference>
+           <reference key="16"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -2567,13 +860,13 @@ estudiante a responder la pregunta."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="53">
+      <instance class="exe.engine.node.Node" reference="19">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Técnicas de protección colectiva"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="51">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="17">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Complete"></unicode>
@@ -2634,12 +927,12 @@ estudiante a responder la pregunta."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="52">
+            <instance class="exe.engine.field.TextAreaField" reference="18">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="144_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="51"></reference>
+              <reference key="17"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2665,7 +958,7 @@ estudiante a responder la pregunta."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="52"></reference>
+                <reference key="18"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -2673,7 +966,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="53"></reference>
+              <reference key="19"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2690,7 +983,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="53"></reference>
+           <reference key="19"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -2722,13 +1015,13 @@ estudiante a responder la pregunta."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="56">
+      <instance class="exe.engine.node.Node" reference="22">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Trabajadores especialmente sensibles"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="54">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="20">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Complete"></unicode>
@@ -2789,12 +1082,12 @@ estudiante a responder la pregunta."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="55">
+            <instance class="exe.engine.field.TextAreaField" reference="21">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="145_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="54"></reference>
+              <reference key="20"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2825,7 +1118,7 @@ estudiante a responder la pregunta."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="55"></reference>
+                <reference key="21"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -2833,7 +1126,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="56"></reference>
+              <reference key="22"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2850,7 +1143,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="56"></reference>
+           <reference key="22"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -2882,13 +1175,13 @@ estudiante a responder la pregunta."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="59">
+      <instance class="exe.engine.node.Node" reference="25">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="QuExt"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="57">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="23">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="QuExt"></unicode>
@@ -2949,12 +1242,12 @@ estudiante a responder la pregunta."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="58">
+            <instance class="exe.engine.field.TextAreaField" reference="24">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="152_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="57"></reference>
+              <reference key="23"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2979,7 +1272,7 @@ estudiante a responder la pregunta."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="58"></reference>
+                <reference key="24"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -2987,7 +1280,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="59"></reference>
+              <reference key="25"></reference>
              </dictionary>
             </instance>
            </list>
@@ -3004,7 +1297,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="59"></reference>
+           <reference key="25"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -3039,22 +1332,20 @@ estudiante a responder la pregunta."></unicode>
      </list>
     </dictionary>
    </instance>
-   <unicode role="key" value="1"></unicode>
-   <reference key="7"></reference>
    <unicode role="key" value="2"></unicode>
-   <reference key="41"></reference>
+   <reference key="7"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="47"></reference>
+   <reference key="13"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="50"></reference>
+   <reference key="16"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="53"></reference>
+   <reference key="19"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="56"></reference>
+   <reference key="22"></reference>
    <unicode role="key" value="7"></unicode>
-   <reference key="59"></reference>
+   <reference key="25"></reference>
    <unicode role="key" value="9"></unicode>
-   <reference key="44"></reference>
+   <reference key="10"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -3065,7 +1356,7 @@ estudiante a responder la pregunta."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="59"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3096,7 +1387,7 @@ estudiante a responder la pregunta."></unicode>
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="SegHig"></unicode>
+    <unicode value="Seguridad e Higiene en el Trabajo"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -3382,7 +1673,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="SegHig"></string>
+           <string value="Seguridad e Higiene en el Trabajo"></string>
           </dictionary>
          </instance>
         </list>
@@ -3943,7 +2234,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="SegHig"></string>
+           <string value="Seguridad e Higiene en el Trabajo"></string>
           </dictionary>
          </instance>
         </list>
