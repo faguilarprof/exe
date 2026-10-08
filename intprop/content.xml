@@ -122,11 +122,12 @@
           <odeBlockId>block-muzsgbgl-q2nj25caz</odeBlockId>
           <odeIdeviceId>idevice-muzsgbgl-40e08jamq</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
-          <htmlView><![CDATA[<p>Debes intentar realizar las actividades que aparecen como no completadas con este icono:</p>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Debes intentar realizar las actividades que aparecen como no completadas con este icono:</p>
 <p><img src="{{context_path}}/content/resources/img0.png" width="283" height="42" alt="AnC" style="display: block; margin-left: auto; margin-right: auto;" /></p>
 <p>Después, vuelve a esta página y rellénala con tu nombre y apellidos. Pulsa  en el botón "Guardar". Se descargará una imagen en tu ordenador con el "Informe de progreso" . Entrega dicho informe como prueba de realización de la tarea.</p>
-<p style="text-align: center;"><strong>Nota</strong>: El resto de actividades son de refuerzo.</p>]]></htmlView>
-          <jsonProperties><![CDATA[{"textTextarea":"<p>Debes intentar realizar las actividades que aparecen como no completadas con este icono:</p>\n<p><img src=\"{{context_path}}/content/resources/img0.png\" width=\"283\" height=\"42\" alt=\"AnC\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>\n<p>Después, vuelve a esta página y rellénala con tu nombre y apellidos. Pulsa  en el botón \"Guardar\". Se descargará una imagen en tu ordenador con el \"Informe de progreso\" . Entrega dicho informe como prueba de realización de la tarea.</p>\n<p style=\"text-align: center;\"><strong>Nota</strong>: El resto de actividades son de refuerzo.</p>"}]]></jsonProperties>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-muzsgbgl-40e08jamq","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Debes intentar realizar las actividades que aparecen como no completadas con este icono:</p>\n<p><img src=\"{{context_path}}/content/resources/img0.png\" width=\"283\" height=\"42\" alt=\"AnC\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>\n<p>Después, vuelve a esta página y rellénala con tu nombre y apellidos. Pulsa  en el botón \"Guardar\". Se descargará una imagen en tu ordenador con el \"Informe de progreso\" . Entrega dicho informe como prueba de realización de la tarea.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
           </odeComponentsProperties>
